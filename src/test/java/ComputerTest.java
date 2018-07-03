@@ -11,11 +11,15 @@ import static org.junit.Assert.assertNotNull;
 public class ComputerTest {
     Computer computer;
     Monitor monitor;
+    Mouse mouse;
+    Keyboard keyboard;
 
     @Before
     public void before() {
         monitor = new Monitor(22, 786432);
-        computer = new Computer(8, 512, monitor);
+        mouse = new Mouse("Logitec", 12, 1500);
+        keyboard = new Keyboard("Logitec", "UK");
+        computer = new Computer(8, 512, monitor, mouse);
     }
 
     @Test
@@ -41,14 +45,14 @@ public class ComputerTest {
     @Test
     public void canOutputDataViaPrinter(){
         Printer printer = new Printer("Epson", "Stylus", 120, 4);
-        computer = new Computer(8 , 112, printer);
+        computer = new Computer(8 , 112, printer, mouse);
         assertEquals("printing: holiday pictures", computer.outputData("holiday pictures"));
     }
 
     @Test
     public void canOutputDataViaSpeaker(){
         Speaker speaker = new Speaker(100);
-        computer = new Computer(8 , 112, speaker);
+        computer = new Computer(8 , 112, speaker, mouse);
         assertEquals("playing: Beep!", computer.outputData("Beep!"));
     }
 
@@ -57,6 +61,12 @@ public class ComputerTest {
         Printer printer = new Printer("Epson", "Stylus", 120, 4);
         computer.setOutputDevice(printer);
         assertEquals("printing: dissertation", computer.outputData("dissertation"));
+    }
+
+    @Test
+    public void canSetInputDevice(){
+        computer.setInputDevice(keyboard);
+        assertEquals("Typing: hello", computer.inputData("hello"));
     }
 
 }

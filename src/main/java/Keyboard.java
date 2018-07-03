@@ -13,6 +13,6 @@ public class Keyboard implements IInput {
 
     @Override
     public String sendData(String data) {
-        return data;
+        return "Typing: " + data;
     }
 }

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f93ab23-0d1b-4a27-a444-ca31c16679c0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Keyboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/device_management/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/device_management/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ComputerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state relative-caret-position="408">
+              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
@@ -54,6 +56,8 @@
                 <element signature="e#476#477#0" expanded="true" />
                 <element signature="e#521#522#0" expanded="true" />
                 <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,8 +108,8 @@
       <file leaf-file-name="ComputerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+            <state relative-caret-position="358">
+              <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
@@ -135,14 +139,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Keyboard.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Keyboard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Keyboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,28 +183,6 @@
                 <element signature="e#113#114#0" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Mouse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-              <folding>
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOutput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IOutput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -515,13 +510,13 @@
         <option value="$PROJECT_DIR$/src/main/java/device_management/Monitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Printer.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Speaker.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MouseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/behaviours/IInput.java" />
         <option value="$PROJECT_DIR$/src/test/java/KeyboardTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Keyboard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Mouse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Keyboard.java" />
       </list>
     </option>
   </component>
@@ -624,29 +619,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KeyboardTest.canKeyboardSendData">
+  <component name="RunManager" selected="JUnit.ComputerTest.canSetInputDevice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ComputerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CompositionStartPoint_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComputerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ComputerTest.canOutputData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompositionStartPoint_test" />
@@ -672,6 +650,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ComputerTest" />
       <option name="METHOD_NAME" value="canOutputDataViaSpeaker" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ComputerTest.canSetInputDevice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompositionStartPoint_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputerTest" />
+      <option name="METHOD_NAME" value="canSetInputDevice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -768,19 +763,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ComputerTest" />
       <item itemvalue="JUnit.ComputerTest.canOutputData" />
       <item itemvalue="JUnit.ComputerTest.canOutputDataViaSpeaker" />
       <item itemvalue="JUnit.ComputerTest.canSetOutputDevice" />
       <item itemvalue="JUnit.KeyboardTest.canKeyboardSendData" />
+      <item itemvalue="JUnit.ComputerTest.canSetInputDevice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComputerTest.canSetInputDevice" />
         <item itemvalue="JUnit.KeyboardTest.canKeyboardSendData" />
         <item itemvalue="JUnit.ComputerTest.canSetOutputDevice" />
         <item itemvalue="JUnit.ComputerTest.canOutputDataViaSpeaker" />
         <item itemvalue="JUnit.ComputerTest.canOutputData" />
-        <item itemvalue="JUnit.ComputerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -798,9 +793,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TypeWriterTest - 2017.11.21 at 10h 49m 15s.xml">
-      <configuration name="TypeWriterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ComputerTest_hasOutputDevice - 2018.07.03 at 10h 44m 11s.xml">
       <configuration name="ComputerTest.hasOutputDevice" configurationId="JUnit" />
     </history-entry>
@@ -828,6 +820,9 @@
     <history-entry file="KeyboardTest_canKeyboardSendData - 2018.07.03 at 11h 46m 40s.xml">
       <configuration name="KeyboardTest.canKeyboardSendData" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ComputerTest_canSetInputDevice - 2018.07.03 at 11h 57m 35s.xml">
+      <configuration name="ComputerTest.canSetInputDevice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -841,12 +836,12 @@
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3272727" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3272727" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32969698" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Build" weight="0.32969698" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3297568" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
@@ -1419,13 +1414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1491,24 +1479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Keyboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/KeyboardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1534,10 +1504,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Mouse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#350#351#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
@@ -1547,8 +1551,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="358">
+          <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#411#412#0" expanded="true" />
@@ -1561,20 +1565,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Keyboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
           </folding>
         </state>
       </provider>

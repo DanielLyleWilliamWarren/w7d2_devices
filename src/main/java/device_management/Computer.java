@@ -41,4 +41,8 @@ private IInput inputDevice;
         this.inputDevice = inputDevice;
 
     }
+
+    public String inputData(String input) {
+        return this.inputDevice.sendData(input);
+    }
 }
