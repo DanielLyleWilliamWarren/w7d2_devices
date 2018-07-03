@@ -36,6 +36,10 @@ public class ComputerTest {
     public void hasOutputDevice() {
         assertNotNull(computer.getOutputDevice());
     }
+    @Test
+    public void hasInputDevice() {
+        assertNotNull(computer.getInputDevice());
+    }
 
     @Test
     public void canOutputData() {
@@ -67,6 +71,13 @@ public class ComputerTest {
     public void canSetInputDevice(){
         computer.setInputDevice(keyboard);
         assertEquals("Typing: hello", computer.inputData("hello"));
+    }
+
+    @Test
+    public void canOutputStream(){
+        computer.setInputDevice(keyboard);
+        computer.inputData("hello");
+        assertEquals("hello is now on screen", computer.outputDataStream(monitor));
     }
 
 }
